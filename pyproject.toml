@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "bleedingtones"
+version = "1.0.0"
+description = "Spontaneous audio motivation for your terminal."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = ["pygame>=2.5"]
+
+[project.scripts]
+bleedingtones-chaos     = "bleedingtones.chaos:main"
+bleedingtones-ambient   = "bleedingtones.ambient:main"
+bleedingtones-scheduler = "bleedingtones.scheduler:main"
+bleedingtones-notify    = "bleedingtones.notify:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
