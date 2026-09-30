@@ -1,6 +1,6 @@
 # bleedingtones
 
-Terminal trool yourself by playing sounds now or randomly. Because sometimes you
+Terminal troll yourself by playing sounds now or randomly. Because sometimes you
 finished and just survived another a task — and the Mii victory theme is the correct response.
 
 Four tools. One folder of MP3s. Zero apologies.
