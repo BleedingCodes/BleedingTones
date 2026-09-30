@@ -1,8 +1,7 @@
 # bleedingtones
 
-Your terminal plays sounds now. Not because it needs to. Because sometimes you
-finish a build, fix a stupid bug, or just survive another meeting — and
-the Mii victory theme is the correct response.
+Terminal trool yourself by playing sounds now or randomly. Because sometimes you
+finished and just survived another a task — and the Mii victory theme is the correct response.
 
 Four tools. One folder of MP3s. Zero apologies.
 
@@ -12,7 +11,7 @@ Four tools. One folder of MP3s. Zero apologies.
 
 | Tool | What It Is |
 |---|---|
-| `chaos` | Picks a random sound and plays it. That's it. |
+| `chaos` | Picks a random sound and plays it. |
 | `ambient` | Continuous shuffle — plays one sound after another until you tell it to stop. |
 | `scheduler` | Fires a random sound on a timer. Fixed interval or random window. Runs in the background. |
 | `notify` | Category-aware dispatcher. Wire different subfolders to different events in your scripts. |
